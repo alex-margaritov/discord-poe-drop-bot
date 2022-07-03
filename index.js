@@ -2,8 +2,8 @@ require("dotenv").config();
 
 // Require the necessary discord.js classes
 const { Client, Intents } = require("discord.js");
-const { DISCORD_TOKEN } = require("./env");
-const { DROP_COMMAND } = require("./constants");
+const { DISCORD_TOKEN } = require("./src/env");
+const { DROP_COMMAND } = require("./src/constants");
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });

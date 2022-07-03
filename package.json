@@ -4,6 +4,7 @@
   "description": "Discord bot for community fun interactions in the chat",
   "main": "src/index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
